@@ -1,10 +1,5 @@
-const profile = {
-   username: "shubham singh",
-   isfollow: true,
-   followers: 200,
-   following: 20,
-};
+let heading = document.getElementById("head");
+console.log(heading);
 
-console.log(profile);
 
 
