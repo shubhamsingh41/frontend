@@ -1,5 +1,5 @@
-let heading = document.getElementById("head");
-console.log(heading);
+const url = "https://cat-fact.herokuapp.com/facts";
 
-
-
+ let promise = fetch(url);
+ console.log(promise);
+ 
